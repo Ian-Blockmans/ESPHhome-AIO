@@ -839,7 +839,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 233.68 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03927bfd-4ee4-4271-b2f6-eaf0553ad387)
-    (property "Reference" "SW7" (at 233.68 19.05 0)
+    (property "Reference" "SW9" (at 233.68 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 233.68 21.59 0)
@@ -860,7 +860,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW7") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -869,7 +869,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 199.39 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03e5d82c-4698-41a4-a8fa-9b1f8e92db68)
-    (property "Reference" "SW5" (at 199.39 40.64 0)
+    (property "Reference" "SW7" (at 199.39 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 199.39 43.18 0)
@@ -890,7 +890,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW5") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -899,7 +899,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 199.39 69.85 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ec71f13-2d08-4e95-9581-d66162797717)
-    (property "Reference" "SW5" (at 199.39 60.96 0)
+    (property "Reference" "SW7" (at 199.39 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 199.39 63.5 0)
@@ -920,7 +920,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW5") (unit 2)
+          (reference "SW7") (unit 2)
         )
       )
     )
@@ -929,7 +929,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 35.56 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f07bdd4-31eb-480c-888f-47c4b02b5e5f)
-    (property "Reference" "J9" (at 35.56 25.4 0)
+    (property "Reference" "J10" (at 35.56 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 35.56 27.94 0)
@@ -948,7 +948,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -957,7 +957,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 237.49 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25fd0f63-3dde-45f7-ac25-28195cbf33ba)
-    (property "Reference" "SW8" (at 237.49 85.09 0)
+    (property "Reference" "SW10" (at 237.49 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 237.49 87.63 0)
@@ -978,7 +978,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW8") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -987,7 +987,7 @@
   (symbol (lib_id "power:GND") (at 213.36 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc86227-5849-494f-9bc2-79474b96ab51)
-    (property "Reference" "#PWR075" (at 213.36 143.51 0)
+    (property "Reference" "#PWR088" (at 213.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 213.36 142.24 0)
@@ -1003,7 +1003,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1012,7 +1012,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 165.1 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4681c794-a275-44ff-9962-92f6d789b94b)
-    (property "Reference" "J12" (at 165.1 96.52 0)
+    (property "Reference" "J13" (at 165.1 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 165.1 99.06 0)
@@ -1031,7 +1031,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "J12") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1040,7 +1040,7 @@
   (symbol (lib_id "power:+3.3V") (at 213.36 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4da37b27-cb13-40ad-be7e-03cd7d32e30e)
-    (property "Reference" "#PWR074" (at 213.36 118.11 0)
+    (property "Reference" "#PWR087" (at 213.36 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 213.36 109.22 0)
@@ -1056,7 +1056,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1065,7 +1065,7 @@
   (symbol (lib_id "power:+3.3V") (at 83.82 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54b806f2-aa6a-4e58-a14c-fd6c036245b5)
-    (property "Reference" "#PWR068" (at 83.82 46.99 0)
+    (property "Reference" "#PWR081" (at 83.82 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 83.82 38.1 0)
@@ -1081,7 +1081,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -1090,7 +1090,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 73.66 64.77 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 596792f1-b0f1-400c-bdec-d3d09e5d45d4)
-    (property "Reference" "SW1" (at 73.66 55.88 0)
+    (property "Reference" "SW3" (at 73.66 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 73.66 58.42 0)
@@ -1111,7 +1111,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW1") (unit 2)
+          (reference "SW3") (unit 2)
         )
       )
     )
@@ -1120,7 +1120,7 @@
   (symbol (lib_id "power:+3.3V") (at 209.55 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c68035e-e7b6-4591-9d4f-8fe7885599c8)
-    (property "Reference" "#PWR072" (at 209.55 52.07 0)
+    (property "Reference" "#PWR085" (at 209.55 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 209.55 43.18 0)
@@ -1136,7 +1136,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1145,7 +1145,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 107.95 22.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 638b29ae-0a73-4b06-85cd-c6f0cbbfca3c)
-    (property "Reference" "SW3" (at 107.95 13.97 0)
+    (property "Reference" "SW5" (at 107.95 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 107.95 16.51 0)
@@ -1166,7 +1166,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW3") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -1175,7 +1175,7 @@
   (symbol (lib_id "power:GND") (at 86.36 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fde7a2e-9526-415b-98d0-b3920af973f6)
-    (property "Reference" "#PWR071" (at 86.36 149.86 0)
+    (property "Reference" "#PWR084" (at 86.36 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 148.59 0)
@@ -1191,7 +1191,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1200,7 +1200,7 @@
   (symbol (lib_id "power:+3.3V") (at 86.36 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7206651a-b94e-4018-a514-cb2919938c19)
-    (property "Reference" "#PWR070" (at 86.36 124.46 0)
+    (property "Reference" "#PWR083" (at 86.36 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 86.36 115.57 0)
@@ -1216,7 +1216,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1225,7 +1225,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 73.66 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7a7f7f5c-2259-4bc3-bdd2-b98b65a20ead)
-    (property "Reference" "SW1" (at 73.66 35.56 0)
+    (property "Reference" "SW3" (at 73.66 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 73.66 38.1 0)
@@ -1246,7 +1246,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW1") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -1255,7 +1255,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 203.2 115.57 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fa72105-9842-4718-bd51-b5df843a72e7)
-    (property "Reference" "SW6" (at 203.2 106.68 0)
+    (property "Reference" "SW8" (at 203.2 106.68 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 203.2 109.22 0)
@@ -1276,7 +1276,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW6") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -1285,7 +1285,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 110.49 120.65 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93eca9d0-be5f-4027-8211-4f2829aa4f51)
-    (property "Reference" "SW4" (at 110.49 111.76 0)
+    (property "Reference" "SW6" (at 110.49 111.76 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 110.49 114.3 0)
@@ -1306,7 +1306,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW4") (unit 2)
+          (reference "SW6") (unit 2)
         )
       )
     )
@@ -1315,7 +1315,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 161.29 41.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b4fdbaa-aa5c-4320-a84b-efc42748f518)
-    (property "Reference" "J11" (at 161.29 30.48 0)
+    (property "Reference" "J12" (at 161.29 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 161.29 33.02 0)
@@ -1334,7 +1334,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "J11") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1343,7 +1343,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 76.2 142.24 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9c89ff6-db10-4a40-b180-849a128747a4)
-    (property "Reference" "SW2" (at 76.2 133.35 0)
+    (property "Reference" "SW4" (at 76.2 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 76.2 135.89 0)
@@ -1364,7 +1364,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW2") (unit 2)
+          (reference "SW4") (unit 2)
         )
       )
     )
@@ -1373,13 +1373,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 38.1 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b555994d-1096-4e65-9439-a7eafc3d397c)
-    (property "Reference" "J10" (at 38.1 102.87 0)
+    (property "Reference" "J11" (at 38.1 102.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 38.1 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (at 38.1 114.3 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 38.1 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 114.3 0)
@@ -1392,7 +1392,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1401,7 +1401,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 76.2 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6095b67-ee40-4579-b4b6-6027b076e799)
-    (property "Reference" "SW2" (at 76.2 113.03 0)
+    (property "Reference" "SW4" (at 76.2 113.03 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 76.2 115.57 0)
@@ -1422,7 +1422,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW2") (unit 1)
+          (reference "SW4") (unit 1)
         )
       )
     )
@@ -1431,7 +1431,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 237.49 114.3 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b82727be-60c5-416f-b41d-7c5bf6f37bf2)
-    (property "Reference" "SW8" (at 237.49 105.41 0)
+    (property "Reference" "SW10" (at 237.49 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 237.49 107.95 0)
@@ -1452,7 +1452,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW8") (unit 2)
+          (reference "SW10") (unit 2)
         )
       )
     )
@@ -1461,7 +1461,7 @@
   (symbol (lib_id "power:GND") (at 83.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid becfe84a-856b-45ab-9ece-21283dc923f3)
-    (property "Reference" "#PWR069" (at 83.82 72.39 0)
+    (property "Reference" "#PWR082" (at 83.82 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 71.12 0)
@@ -1477,7 +1477,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1486,7 +1486,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 203.2 135.89 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6c0237f-e1ff-4459-8874-751d851158e9)
-    (property "Reference" "SW6" (at 203.2 127 0)
+    (property "Reference" "SW8" (at 203.2 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 203.2 129.54 0)
@@ -1507,7 +1507,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW6") (unit 2)
+          (reference "SW8") (unit 2)
         )
       )
     )
@@ -1516,7 +1516,7 @@
   (symbol (lib_id "power:GND") (at 209.55 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb963701-34cf-45c6-a8ca-0c73d194e582)
-    (property "Reference" "#PWR073" (at 209.55 77.47 0)
+    (property "Reference" "#PWR086" (at 209.55 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 76.2 0)
@@ -1532,7 +1532,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1541,7 +1541,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 233.68 48.26 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0009703-1466-49e1-8969-1f9f26d837c6)
-    (property "Reference" "SW7" (at 233.68 39.37 0)
+    (property "Reference" "SW9" (at 233.68 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 233.68 41.91 0)
@@ -1562,7 +1562,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW7") (unit 2)
+          (reference "SW9") (unit 2)
         )
       )
     )
@@ -1571,7 +1571,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 107.95 43.18 180) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4790a46-da2a-468e-98e8-b61f7cd89c61)
-    (property "Reference" "SW3" (at 107.95 34.29 0)
+    (property "Reference" "SW5" (at 107.95 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 107.95 36.83 0)
@@ -1592,7 +1592,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW3") (unit 2)
+          (reference "SW5") (unit 2)
         )
       )
     )
@@ -1601,7 +1601,7 @@
   (symbol (lib_id "Switch:SW_DPDT_x2") (at 110.49 100.33 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea93b4c4-71c7-4d5f-8248-1600669d7934)
-    (property "Reference" "SW4" (at 110.49 91.44 0)
+    (property "Reference" "SW6" (at 110.49 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DPDT_x2" (at 110.49 93.98 0)
@@ -1622,7 +1622,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/52973fdc-a848-4783-ace4-fb70f9fd2344"
-          (reference "SW4") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )

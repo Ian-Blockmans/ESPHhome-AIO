@@ -951,13 +951,13 @@
   (symbol (lib_id "ComponentSearch:LD1085D2T33R") (at 46.99 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03dc59ac-bf83-47a6-a7eb-c8c6377f22f6)
-    (property "Reference" "IC4" (at 64.77 101.6 0)
+    (property "Reference" "IC5" (at 64.77 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD1085D2T33R" (at 64.77 104.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "LD1085D2T33R" (at 78.74 204.14 0)
+    (property "Footprint" "ComponentSearch:LD1085D2T33R" (at 78.74 204.14 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001883.pdf" (at 78.74 304.14 0)
@@ -990,7 +990,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "IC4") (unit 1)
+          (reference "IC5") (unit 1)
         )
       )
     )
@@ -999,7 +999,7 @@
   (symbol (lib_id "power:GND") (at 67.31 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0524daee-1c61-4bce-847b-a9dab65ac4d4)
-    (property "Reference" "#PWR064" (at 67.31 137.16 0)
+    (property "Reference" "#PWR075" (at 67.31 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 135.89 0)
@@ -1015,7 +1015,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1050,7 +1050,7 @@
   (symbol (lib_id "ComponentSearch:5V-24V") (at 49.53 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2766ee7c-f48c-4f86-80d8-6987e5c78868)
-    (property "Reference" "#PWR061" (at 49.53 106.68 0)
+    (property "Reference" "#PWR072" (at 49.53 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-24V" (at 49.53 97.79 0)
@@ -1066,7 +1066,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1075,7 +1075,7 @@
   (symbol (lib_id "ComponentSearch:5V-24V") (at 50.8 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28ff3351-277b-4c38-9727-8735ddf73a48)
-    (property "Reference" "#PWR062" (at 50.8 149.86 0)
+    (property "Reference" "#PWR073" (at 50.8 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-24V" (at 50.8 140.97 0)
@@ -1091,7 +1091,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1100,7 +1100,7 @@
   (symbol (lib_id "power:+5V") (at 54.61 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3058761b-164b-4cb0-a773-f235d7838ca4)
-    (property "Reference" "#PWR063" (at 54.61 134.62 0)
+    (property "Reference" "#PWR074" (at 54.61 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 54.61 125.73 0)
@@ -1116,7 +1116,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1177,13 +1177,13 @@
   (symbol (lib_id "ComponentSearch:BD50FC0FP-E2") (at 54.61 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66049a53-8b3f-4b70-b4b5-bc77ee5dda03)
-    (property "Reference" "IC5" (at 67.31 143.51 0)
+    (property "Reference" "IC6" (at 67.31 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BD50FC0FP-E2" (at 67.31 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "BD50FC0FPE2" (at 76.2 246.05 0)
+    (property "Footprint" "ComponentSearch:BD50FC0FPE2" (at 76.2 246.05 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-18/356160.pdf" (at 76.2 346.05 0)
@@ -1216,7 +1216,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "IC5") (unit 1)
+          (reference "IC6") (unit 1)
         )
       )
     )
@@ -1225,7 +1225,7 @@
   (symbol (lib_id "power:+5V") (at 82.55 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6742f897-3bd9-45dd-9872-5fbe71943dfa)
-    (property "Reference" "#PWR066" (at 82.55 151.13 0)
+    (property "Reference" "#PWR078" (at 82.55 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 82.55 142.24 0)
@@ -1241,7 +1241,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -1276,7 +1276,7 @@
   (symbol (lib_id "ComponentSearch:5V-24V") (at 26.67 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75c1a50a-2c33-4fb3-8d46-a74da7856773)
-    (property "Reference" "#PWR060" (at 26.67 134.62 0)
+    (property "Reference" "#PWR070" (at 26.67 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-24V" (at 26.67 125.73 0)
@@ -1292,7 +1292,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
   (symbol (lib_id "power:GND") (at 46.99 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 806ca787-203d-4fbf-a432-7692b949ec99)
-    (property "Reference" "#PWR057" (at 46.99 64.77 0)
+    (property "Reference" "#PWR071" (at 46.99 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 46.99 63.5 0)
@@ -1317,7 +1317,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1378,13 +1378,13 @@
   (symbol (lib_id "ComponentSearch:694106301002") (at 53.34 38.1 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4dcc5de-3682-473b-bc8d-bcef77afdbcd)
-    (property "Reference" "J8" (at 38.1 27.94 0)
+    (property "Reference" "J9" (at 38.1 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "694106301002" (at 38.1 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "694106301002_1" (at 26.67 -56.82 0)
+    (property "Footprint" "ComponentSearch:694106301002_1" (at 26.67 -56.82 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf" (at 26.67 -156.82 0)
@@ -1417,7 +1417,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1426,7 +1426,7 @@
   (symbol (lib_id "power:+3.3V") (at 85.09 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9891ea7-32ef-42ae-a3ed-10c5a9560a38)
-    (property "Reference" "#PWR067" (at 85.09 107.95 0)
+    (property "Reference" "#PWR080" (at 85.09 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 85.09 99.06 0)
@@ -1442,7 +1442,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1451,7 +1451,7 @@
   (symbol (lib_id "power:GND") (at 67.31 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce6a308c-7333-47cd-a710-f6cb704ecfba)
-    (property "Reference" "#PWR065" (at 67.31 172.72 0)
+    (property "Reference" "#PWR076" (at 67.31 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 171.45 0)
@@ -1467,7 +1467,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1476,7 +1476,7 @@
   (symbol (lib_id "power:GND") (at 76.2 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d398ce0b-ba72-471c-8157-7f9b4eb766df)
-    (property "Reference" "#PWR058" (at 76.2 62.23 0)
+    (property "Reference" "#PWR077" (at 76.2 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 60.96 0)
@@ -1492,7 +1492,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1501,13 +1501,13 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x02") (at 40.64 55.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5853e7-0f07-4325-98e6-4ad3e025082a)
-    (property "Reference" "J7" (at 40.64 46.99 0)
+    (property "Reference" "J8" (at 40.64 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Screw_Terminal_01x02" (at 40.64 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ComponentSearch:694106301002_1" (at 40.64 55.88 0)
+    (property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" (at 40.64 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 55.88 0)
@@ -1518,7 +1518,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1527,7 +1527,7 @@
   (symbol (lib_id "ComponentSearch:5V-24V") (at 83.82 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ddd29a86-b40f-4cac-8dd2-fab711eb9170)
-    (property "Reference" "#PWR059" (at 83.82 44.45 0)
+    (property "Reference" "#PWR079" (at 83.82 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "5V-24V" (at 83.82 35.56 0)
@@ -1543,7 +1543,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -1552,7 +1552,7 @@
   (symbol (lib_id "power:GND") (at 20.32 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa088b68-80eb-4937-8338-8c77957ee29d)
-    (property "Reference" "#PWR056" (at 20.32 46.99 0)
+    (property "Reference" "#PWR069" (at 20.32 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 20.32 45.72 0)
@@ -1568,7 +1568,7 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/cf8c527b-4fc6-4a23-a706-c7060e10c8ba"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )

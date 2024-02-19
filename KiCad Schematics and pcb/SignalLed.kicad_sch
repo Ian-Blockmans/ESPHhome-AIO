@@ -383,7 +383,7 @@
   (symbol (lib_id "Device:R") (at 35.56 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00f60eff-885a-4876-9d53-002a308a5d10)
-    (property "Reference" "R13" (at 38.1 38.1 0)
+    (property "Reference" "R17" (at 38.1 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "11K" (at 38.1 40.64 0)
@@ -400,19 +400,13 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/14978f3b-9ae2-49c9-8e6c-da58eba4429f"
-          (reference "R13") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
-          (reference "R16") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
-          (reference "R19") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "R22") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
-          (reference "R25") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -443,12 +437,6 @@
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
           (reference "D3") (unit 1)
         )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
-          (reference "D4") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "D5") (unit 1)
-        )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
           (reference "D6") (unit 1)
         )
@@ -459,7 +447,7 @@
   (symbol (lib_id "Device:R") (at 59.69 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55cdec1c-20f8-478b-aedc-04c707bc0032)
-    (property "Reference" "R15" (at 62.23 39.37 0)
+    (property "Reference" "R19" (at 62.23 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33K" (at 62.23 41.91 0)
@@ -476,19 +464,13 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/14978f3b-9ae2-49c9-8e6c-da58eba4429f"
-          (reference "R15") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
-          (reference "R18") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
-          (reference "R21") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "R24") (unit 1)
+          (reference "R22") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
-          (reference "R27") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -497,7 +479,7 @@
   (symbol (lib_id "power:GND") (at 59.69 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d76e024-1987-4fd2-8795-f56b75d366f4)
-    (property "Reference" "#PWR051" (at 59.69 71.12 0)
+    (property "Reference" "#PWR064" (at 59.69 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 69.85 0)
@@ -513,19 +495,13 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/14978f3b-9ae2-49c9-8e6c-da58eba4429f"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
-          (reference "#PWR052") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
-          (reference "#PWR053") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -534,13 +510,13 @@
   (symbol (lib_id "ComponentSearch:DMN4035L-7") (at 52.07 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f3d7f6a-6fc5-49c4-ab70-b290f5d16a4f)
-    (property "Reference" "Q8" (at 63.5 53.34 0)
+    (property "Reference" "Q9" (at 63.5 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN4035L-7" (at 63.5 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SOT96P240X110-3N" (at 63.5 155.88 0)
+    (property "Footprint" "ComponentSearch:SOT96P240X110-3N" (at 63.5 155.88 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN2310U.pdf" (at 63.5 255.88 0)
@@ -573,19 +549,13 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/14978f3b-9ae2-49c9-8e6c-da58eba4429f"
-          (reference "Q8") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
           (reference "Q9") (unit 1)
         )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
+        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
           (reference "Q10") (unit 1)
         )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "Q11") (unit 1)
-        )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
-          (reference "Q12") (unit 1)
+          (reference "Q13") (unit 1)
         )
       )
     )
@@ -594,7 +564,7 @@
   (symbol (lib_id "Device:R") (at 45.72 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c12f224e-bd19-45ca-806e-b30e67a5c0b6)
-    (property "Reference" "R14" (at 45.72 50.8 90)
+    (property "Reference" "R18" (at 45.72 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 45.72 53.34 90)
@@ -611,19 +581,13 @@
     (instances
       (project "ESPHome AIO"
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/14978f3b-9ae2-49c9-8e6c-da58eba4429f"
-          (reference "R14") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/823cca60-66a1-4835-8923-025a3c75e353"
-          (reference "R17") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/d212efe7-a37c-4de7-b2c8-e89c3950f34a"
-          (reference "R20") (unit 1)
-        )
-        (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0dddecc0-8468-4437-9a16-5f57fc4e73e0"
-          (reference "R23") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/5cdf3b4f-d143-42e3-ac6f-eec5265de1fa/f403fb1f-6c3a-4b91-96f2-7610e89c4ca7/0559229c-b64b-4326-a312-6c5673a85522"
-          (reference "R26") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )

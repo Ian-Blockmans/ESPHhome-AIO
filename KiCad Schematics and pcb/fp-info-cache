@@ -1,4 +1,4 @@
-22673981753507346
+22675689946003775
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6456,6 +6456,13 @@ Connector
 ComponentSearch
 SOIC127P600X150-9N
 SO-8(EP)_2022
+Integrated Circuit
+0
+9
+9
+ComponentSearch
+SOIC127P600X170-9N
+P-HSOP-8-0405-1-27-002
 Integrated Circuit
 0
 9
