@@ -208,10 +208,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|647700|406400|a4aef96d-3c69-428a-9917-305f2e34606c|00000000-0000-0000-0000-000000000000|||",
-      "lib_symbol_issues|647700|431800|a4aef96d-3c69-428a-9917-305f2e34606c|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -462,8 +459,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "ESPHome AIO.step",
+      "vrml": "ESPHome AIO.wrl"
     },
     "page_layout_descr_file": ""
   },
