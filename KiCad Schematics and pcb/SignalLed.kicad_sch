@@ -556,7 +556,7 @@
     (property "Value" "2N7002NXAKR" (at 63.5 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "SOT95P230X110-3N" (at 63.5 155.88 0)
+    (property "Footprint" "ComponentSearch:SOT95P230X110-3N" (at 63.5 155.88 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf" (at 63.5 255.88 0)
